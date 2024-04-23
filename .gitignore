@@ -163,7 +163,7 @@ cython_debug/
 
 Techniques/model/*
 Techniques/results/*
-Technques/wandb/*
+Techniques/wandb/*
 RAG/llama-2-7b-chat.Q2_K.gguf
 
 Techniques/results/*
