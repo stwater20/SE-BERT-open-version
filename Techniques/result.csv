@@ -1,0 +1,19 @@
+Text,Predicted Label
+"Written in Go, it is flexible enough to generate binaries compatible with various architectures",T1027
+NKAbuse infiltrates systems by uploading an implant to the victim host,T1105
+"Its capabilities span flooding to backdoor access to remote administration (RAT), offering a range of features",T1021
+Evidence collected and analyzed by GERT suggests that this attack exploited an old vulnerability related to Struts2 (CVE-2017-5638 – Apache Struts2), targeting a financial company",T1203
+The vulnerability allows the attackers to execute commands on the server by passing the command in a header identified as “shell” and sending the instructions to Bash for execution,T1059
+"After the vulnerability is exploited, a command is executed on the system to download the initial script",T1105
+The malware is typically installed on the victim’s device by executing a remote shell script that downloads and executes the contents of the setup",T1059
+"The setup process checks the OS type and, depending on that, it downloads the second stage, which is the actual malware implant",T1082
+"The implant is downloaded from the same server; it is named “app_linux_{ARCH}”, where “{ARCH}” is the target OS architecture",T1036
+Then the implant retrieves the infected machine’s IP address by sending a GET request to ifconfig,T1016
+NKAbuse makes use of cron jobs to survive reboots,T1053
+NKAbuse utilizes the NKN protocol to communicate with the bot master and receive/send information",T1071
+"In fact, most of the message commands mentioned above are, in one way or another, used for persistence, command execution, or information gathering",T1059
+"It contains a number of other structures that store information about the infected host: the PID, the victim’s IP address, free memory, current configuration, and so on",T1016
+Another feature of this malware is the ability to make screenshots of the infected machine,T1113
+"It uses an open-source project to determine the display bounds and then capture an image of the current screen, in order to convert it to PNG and send to the bot master",T1113
+"NKAbuse can also create files with specific content, remove files from the file system, and fetch a file list from a specific path",T1083
+It can get a list of processes running in the system and even a detailed list of the available network interfaces,T1057
